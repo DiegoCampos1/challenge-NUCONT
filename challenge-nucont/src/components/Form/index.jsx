@@ -53,7 +53,8 @@ function Form({ color }) {
     <div>
       <Title>Fale agora com nossos consultores!</Title>
       <Paragraph primary={color}>
-        Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na Imersão Nucont
+        Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na
+        <strong> Imersão Nucont</strong>
       </Paragraph>
       <UserForm>
         <Input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
