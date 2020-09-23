@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import saveToLocalStorage from '../../service/localstorage';
-import { Title } from './StyledComponents';
+import { Title, UserForm, Paragraph, Input, Button } from './StyledComponents';
 
 function Form() {
   const [name, setName] = useState('');
@@ -46,21 +46,21 @@ function Form() {
   return (
     <div>
       <Title>Fale agora com nossos consultores!</Title>
-      <p>Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na Imersão Nucont</p>
-      <form>
-        <input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
-        <input type="text" placeholder="SobreNome" onChange={(e) => setLastName(e.target.value)} />
-        <input type="number" placeholder="Idade" onChange={(e) => setAge(e.target.value)} />
-        <input type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
-        <input
+      <Paragraph primary>Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na Imersão Nucont</Paragraph>
+      <UserForm>
+        <Input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
+        <Input type="text" placeholder="SobreNome" onChange={(e) => setLastName(e.target.value)} />
+        <Input type="number" placeholder="Idade" onChange={(e) => setAge(e.target.value)} />
+        <Input type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
+        <Input
           type="text"
           placeholder="Telefone: (__)xxxx-xxxx"
           onChange={(e) => setPhone(e.target.value)}
         />
-        <button type="button" onClick={() => handleregister()} disabled={disable}>
+        <Button type="button" onClick={() => handleregister()} disabled={disable}>
           QUERO ACOMPANHAR A SÉRIE
-        </button>
-      </form>
+        </Button>
+      </UserForm>
     </div>
   );
 }
