@@ -46,7 +46,7 @@ function Form({ color }) {
       email,
       phone,
     };
-    return saveToLocalStorage(`${name} ${lastName}`, userData);
+    return saveToLocalStorage(userData);
   };
 
   return (

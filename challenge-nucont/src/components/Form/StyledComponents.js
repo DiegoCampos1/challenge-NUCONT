@@ -40,16 +40,16 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 100%;
-  color: white;
-  text-align: center;
   background: #ffb700;
   border-radius: 42px;
-  padding: 10px 25px;
-  margin: 5px 0;
+  color: white;
   cursor: pointer;
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 5px 0;
+  padding: 10px 25px;
+  text-align: center;
 `;

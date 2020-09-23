@@ -1,9 +1,9 @@
-const saveToLocalStorage = (key, entry) => {
+const saveToLocalStorage = (entry) => {
   let formattedEntry = entry;
   if (typeof entry === 'object') {
     formattedEntry = JSON.stringify(entry);
   }
-  localStorage.setItem(key, formattedEntry);
+  localStorage.setItem('userData', formattedEntry);
 };
 
 export default saveToLocalStorage;
