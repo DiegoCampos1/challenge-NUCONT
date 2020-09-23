@@ -22,7 +22,6 @@ export const Paragraph = styled.p`
 
 export const HeaderContainer = styled.div`
   background-image: url(${imageHeader});
-
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;

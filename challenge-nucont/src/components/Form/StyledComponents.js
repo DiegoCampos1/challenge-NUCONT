@@ -35,6 +35,7 @@ export const Input = styled.input`
   border: 2px solid #99b6cc;
   box-sizing: border-box;
   border-radius: 4px;
+  margin: 5px 0;
 `;
 
 export const Button = styled.button`
@@ -48,4 +49,6 @@ export const Button = styled.button`
   background: #ffb700;
   border-radius: 42px;
   padding: 10px 25px;
+  margin: 5px 0;
+  cursor: pointer;
 `;
