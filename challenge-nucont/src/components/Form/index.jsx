@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import saveToLocalStorage from '../../service/localstorage';
+import { Title } from './StyledComponents';
 
 function Form() {
   const [name, setName] = useState('');
@@ -44,7 +45,7 @@ function Form() {
 
   return (
     <div>
-      <h3>Fale agora com nossos consultores!</h3>
+      <Title>Fale agora com nossos consultores!</Title>
       <p>Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na Imersão Nucont</p>
       <form>
         <input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
