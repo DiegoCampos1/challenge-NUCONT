@@ -44,6 +44,8 @@ function Form() {
 
   return (
     <div>
+      <h3>Fale agora com nossos consultores!</h3>
+      <p>Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na Imersão Nucont</p>
       <form>
         <input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
         <input type="text" placeholder="SobreNome" onChange={(e) => setLastName(e.target.value)} />
@@ -51,7 +53,7 @@ function Form() {
         <input type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
         <input
           type="text"
-          placeholder="Telefone no formato (xx)xxxx-xxxx"
+          placeholder="Telefone: (__)xxxx-xxxx"
           onChange={(e) => setPhone(e.target.value)}
         />
         <button type="button" onClick={() => handleregister()} disabled={disable}>
