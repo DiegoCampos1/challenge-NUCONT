@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import saveToLocalStorage from '../../service/localstorage';
-import { Title, UserForm, Paragraph, Input, Button } from './StyledComponents';
+import {
+  Title,
+  UserForm,
+  Paragraph,
+  Input,
+  Button,
+} from './StyledComponents';
 
-function Form() {
+function Form({ color }) {
   const [name, setName] = useState('');
   const [lastName, setLastName] = useState('');
   const [age, setAge] = useState();
@@ -46,7 +52,9 @@ function Form() {
   return (
     <div>
       <Title>Fale agora com nossos consultores!</Title>
-      <Paragraph primary>Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na Imersão Nucont</Paragraph>
+      <Paragraph primary={color}>
+        Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na Imersão Nucont
+      </Paragraph>
       <UserForm>
         <Input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
         <Input type="text" placeholder="SobreNome" onChange={(e) => setLastName(e.target.value)} />

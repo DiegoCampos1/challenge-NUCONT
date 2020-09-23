@@ -5,7 +5,7 @@ function MainPage() {
   return (
     <div>
       Bem vindo a Paginda Principal
-      <Form />
+      <Form color="white" />
     </div>
   );
 }
