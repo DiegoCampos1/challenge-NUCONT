@@ -1,5 +1,5 @@
 import React from 'react';
-import { Elipse, ContainerList, Paragraph, Title } from './StyledComponents';
+import { Elipse, ContainerList, Paragraph, Title, Hr } from './StyledComponents';
 
 function ListComponent({ title, list }) {
   const renderTitle = (titleList, listItems) => {
