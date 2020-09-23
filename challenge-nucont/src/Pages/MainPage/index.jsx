@@ -5,7 +5,6 @@ import ListComponent from '../../components/ListComponent';
 import { contadorList, serieList } from '../../service/itemsList';
 
 function MainPage() {
-  console.log(contadorList.items)
   return (
     <div>
       <Header />

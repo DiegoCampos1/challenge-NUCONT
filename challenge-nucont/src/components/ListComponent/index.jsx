@@ -1,11 +1,20 @@
 import React from 'react';
+import { Elipse, ContainerList, Paragraph, Title } from './StyledComponents';
 
 function ListComponent({ title, list }) {
   const renderTitle = (titleList, listItems) => {
     return (
       <div>
-        <h3>{titleList}</h3>
-        <div>{listItems.map((item) => <p>{item}</p>)}</div>
+        <Title>{titleList}</Title>
+        <div>{listItems.map((item) => {
+          return(
+            <ContainerList>
+            <Elipse />
+            <Paragraph>{item}</Paragraph>
+            </ContainerList>
+          )
+        })}
+        </div>
       </div>
     );
   };
