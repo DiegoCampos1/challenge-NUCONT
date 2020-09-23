@@ -36,6 +36,7 @@ export const Input = styled.input`
   box-sizing: border-box;
   border-radius: 4px;
   margin: 5px 0;
+  height: 35.16px;
 `;
 
 export const Button = styled.button`
