@@ -4,6 +4,7 @@ import YellowBaner from '../../components/YellowBaner';
 import ListComponent from '../../components/ListComponent';
 import { contadorList, serieList } from '../../service/itemsList';
 import { Hr } from './StyledComponents';
+import AuthorBaner from '../../components/AuthorBaner';
 
 function MainPage() {
   return (
@@ -15,6 +16,7 @@ function MainPage() {
       <Hr size="40%" />
       <ListComponent title={serieList.title} list={serieList.items} />
       <Hr size="30%" margintop="40px" />
+      <AuthorBaner />
 
     </div>
   );
