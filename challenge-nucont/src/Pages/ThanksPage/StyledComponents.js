@@ -1,18 +1,77 @@
-import React from 'react';
-// import Header from '../../components/Header';
-// import YellowBaner from '../../components/YellowBaner';
-// import ListComponent from '../../components/ListComponent';
-// import { contadorList, serieList } from '../../service/itemsList';
-// import { Hr, Title } from './StyledComponents';
-// import AuthorBaner from '../../components/AuthorBaner';
-// import RegisterBaner from '../../components/RegisterBaner';
+import styled from 'styled-components';
 
-function ThanksPage() {
-  return (
-    <div>
-      Obrigado
-    </div>
-  );
-}
+export const ThanksPageContainer = styled.div`
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-style: normal;
+  background: linear-gradient(180deg, #ffb700 99.99%, #141414 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+`;
 
-export default ThanksPage;
+export const Title = styled.h3`
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #063254;
+  text-align: center;
+  text-transform: uppercase;
+  width: 70%;
+`;
+
+export const SizeView = styled.h3`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: ${(props) => props.background};
+`;
+
+export const Button = styled.button`
+  background: linear-gradient(180deg, #ffb700 99.99%, #141414 100%);
+  border: 0;
+  border-radius: 42px;
+  color: white;
+  cursor: pointer;
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 10vh 0;
+  padding: 10px 25px;
+  text-align: center;
+`;
+
+export const Button2 = styled.button`
+  background: #9b51e0;
+  border: 0;
+  border-radius: 42px;
+  color: white;
+  cursor: pointer;
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 0 0 0 -65px;
+  padding: 10px 25px;
+  text-align: center;
+  height: 100%;
+`;
+
+export const TelegramContainer = styled.div`
+  display: flex;
+  text-align: center;
+  justify-content: center;
+`;
+
+export const Image = styled.img`
+  width: 178px;
+  height: 120px;
+  z-index: 1;
+`;

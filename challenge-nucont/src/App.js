@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MainPage from './Pages/MainPage';
-import ThanksPage from './Pages/ThanksPage/StyledComponents';
+import ThanksPage from './Pages/ThanksPage';
 
 function App() {
   return (
