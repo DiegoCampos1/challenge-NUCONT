@@ -5,14 +5,13 @@ import {
   HeaderContainer,
   Author,
   SizeView,
-  View,
   SizeFlex,
 } from './StyledComponents';
 import Form from '../Form';
 
 function Header() {
   return (
-    <View>
+    <div>
       <HeaderContainer>
         <SizeView>
           <SizeFlex size="62%">
@@ -32,7 +31,7 @@ function Header() {
           </SizeFlex>
         </SizeView>
       </HeaderContainer>
-    </View>
+    </div>
   );
 }
 

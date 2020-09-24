@@ -28,10 +28,9 @@ export const Button = styled.button`
   font-size: 16px;
   line-height: 100%;
   text-align: center;
-  background: #9B51E0;
+  background: #9b51e0;
   border-radius: 20px;
   padding: 10px;
-  margin: 5px 0;
   cursor: pointer;
   color: white;
   margin: 3%;
@@ -41,7 +40,7 @@ export const YellowBanerCountainer = styled.div`
   font-family: Montserrat, Roboto, Arial, sans-serif;
   font-style: normal;
   color: white;
-  background: linear-gradient(180deg, #FFB700 99.99%, #141414 100%);
+  background: linear-gradient(180deg, #fbb700 99.99%, #141414 100%);
   margin: 0;
   width: 100%;
   display: flex;

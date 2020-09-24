@@ -1,5 +1,10 @@
 import React from 'react';
-import { Title, Paragraph, Button, YellowBanerCountainer } from './StyledComponents';
+import {
+  Title,
+  Paragraph,
+  Button,
+  YellowBanerCountainer,
+} from './StyledComponents';
 
 function YellowBaner() {
   return (

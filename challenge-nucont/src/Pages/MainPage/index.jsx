@@ -14,7 +14,7 @@ function MainPage() {
       <br />
       <Hr size="40%" />
       <ListComponent title={serieList.title} list={serieList.items} />
-      <Hr size="30%" marginTop="40px"/>
+      <Hr size="30%" margintop="40px" />
 
     </div>
   );

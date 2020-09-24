@@ -24,15 +24,12 @@ export const HeaderContainer = styled.div`
   background-image: url(${imageHeader});
   background-repeat: no-repeat;
   background-size: 100% 100%;
-    // background-attachment: fixed;
-  // background-position: center;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 550px;
   height: 100vh;
-  // height: 550px;
   margin: 0;
 `;
 
@@ -50,14 +47,6 @@ export const SizeView = styled.div`
   display: flex;
   width: 70%;
   padding-left: 7%;
-`;
-
-export const View = styled.div`
-  // position: absolute;
-  // width: 100%;
-  // height: 587px;
-  // top: 0;
-  // overflow: hidden;
 `;
 
 export const SizeFlex = styled.div`

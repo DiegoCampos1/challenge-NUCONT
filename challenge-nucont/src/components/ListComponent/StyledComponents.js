@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Elipse = styled.div`
   width: 25px;
   height: 25px;
-  background: #FFB700;
+  background: #fbb700;
   border-radius: 50%;
   margin-right: 5px;
 `;
@@ -12,7 +12,6 @@ export const ContainerList = styled.div`
   display: flex;
   align-items: center;
   margin-left: 30vh;
-  /* justify-content: center; */
 `;
 
 export const Paragraph = styled.p`
@@ -33,5 +32,3 @@ export const Title = styled.h3`
   margin-left: 30vh;
 
 `;
-
-
