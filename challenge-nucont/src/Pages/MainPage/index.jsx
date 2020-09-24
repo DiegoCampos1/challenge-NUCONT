@@ -13,10 +13,11 @@ function MainPage() {
       <YellowBaner />
       <ListComponent title={contadorList.title} list={contadorList.items} />
       <br />
-      <Hr size="40%" />
+      <Hr size="50%" />
       <ListComponent title={serieList.title} list={serieList.items} />
-      <Hr size="30%" margintop="40px" />
+      <Hr size="40%" margintop="40px" />
       <AuthorBaner />
+      <Hr size="40%" margintop="0" />
 
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Paragraph, AuthorBanerContainer, SizeFlex, SizeView } from './StyledComponents';
+import { Title, Paragraph, AuthorBanerContainer, SizeFlex, SizeView, Image } from './StyledComponents';
 import fernandaRocha from '../../images/fernandaRocha.png';
 
 function AuthorBaner() {
@@ -8,9 +8,9 @@ function AuthorBaner() {
       <Title>QUEM É FERNANDA ROCHA?</Title>
       <SizeView>
         <SizeFlex size="40%">
-          <img src={fernandaRocha} alt="Foto Fernanda Rocha" />
+          <Image src={fernandaRocha} alt="Foto Fernanda Rocha" />
         </SizeFlex>
-        <SizeFlex size="54%">
+        <SizeFlex size="50%">
           <Paragraph weight="700" color="#ffb700">
             Fala galera, beleza?
           </Paragraph>

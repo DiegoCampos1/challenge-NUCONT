@@ -8,6 +8,7 @@ export const Title = styled.h3`
   line-height: 35px;
   text-align: center;
   color: #FFB700;
+  margin-top: 0;
 `;
 
 export const Paragraph = styled.span`
@@ -21,7 +22,7 @@ export const Paragraph = styled.span`
 
 export const SizeFlex = styled.div`
   width: ${(props) => (props.size)};
-
+  margin-left: 10px;
 `;
 
 export const AuthorBanerContainer = styled.div`
@@ -29,7 +30,7 @@ export const AuthorBanerContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   min-height: 550px;
   height: 100vh;
   margin: 0;
@@ -37,13 +38,11 @@ export const AuthorBanerContainer = styled.div`
 
 export const SizeView = styled.div`
   width: 80%;
-
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
-export const Image = styled.div`
-  width: 412px;
-  height: 364px;
+export const Image = styled.img`
+  width: 100%;
 `;
