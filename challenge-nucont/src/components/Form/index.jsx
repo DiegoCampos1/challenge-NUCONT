@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Redirect } from 'react-router-dom';
 import saveToLocalStorage from '../../service/localstorage';
 import {
   Title,
@@ -15,6 +16,7 @@ function Form({ color }) {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [disable, setDissable] = useState(true);
+  const [redirectThanks, setRedirectThanks] = useState(false);
 
   const validateEmail = (emailAdress) => {
     const regexEmail = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
@@ -46,10 +48,13 @@ function Form({ color }) {
       email,
       phone,
     };
-    return saveToLocalStorage(userData);
+    saveToLocalStorage(userData);
+    return setRedirectThanks(true);
   };
 
-  return (
+  return redirectThanks ? (
+    <Redirect to="/obrigado" />
+  ) : (
     <div>
       <Title>Fale agora com nossos consultores!</Title>
       <Paragraph primary={color}>
