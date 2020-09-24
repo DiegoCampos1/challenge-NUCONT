@@ -58,10 +58,11 @@ export const Button2 = styled.button`
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  margin: 0 0 0 -65px;
+  margin: 40px 0 40px -60px;
   padding: 10px 25px;
   text-align: center;
-  height: 100%;
+  /* height: 37px; */
+  /* height: 100%; */
 `;
 
 export const TelegramContainer = styled.div`
