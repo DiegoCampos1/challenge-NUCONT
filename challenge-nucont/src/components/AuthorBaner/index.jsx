@@ -1,5 +1,12 @@
 import React from 'react';
-import { Title, Paragraph, AuthorBanerContainer, SizeFlex, SizeView, Image } from './StyledComponents';
+import {
+  Title,
+  Paragraph,
+  AuthorBanerContainer,
+  SizeFlex,
+  SizeView,
+  Image,
+} from './StyledComponents';
 import fernandaRocha from '../../images/fernandaRocha.png';
 
 function AuthorBaner() {
@@ -19,7 +26,8 @@ function AuthorBaner() {
             Eu sou a Fernanda Rocha,
             <Paragraph weight="400" color="#ffb700">
               {' '}
-              fundadora da Nucont e do Movimento Contabilidade Sem Chatice.{' '}
+              fundadora da Nucont e do Movimento Contabilidade Sem Chatice.
+              {' '}
             </Paragraph>
             Como empresária contábil eu já estive no fundo do poço, a ponto de largar tudo. Até que
             através da Contabilidade Consultiva me reergui e achei uma maneira de entregar mais
@@ -32,9 +40,10 @@ function AuthorBaner() {
             decidi fazer diferente. Corri atrás e resolvi encarar de frente o desafio de aplicar na
             prática a verdadeira contabilidade. Não foi fácil, muitas vezes me decepcionei, mas
             <Paragraph weight="400" color="#ffb700">
+              {' '}
               me coloquei na missão de mudar para sempre a forma com que Contadores e Empresas se
               relacionam.
-              {' '} 
+              {' '}
             </Paragraph>
             Hoje tenho um compromisso com a classe contábil de replicar tudo o que eu aprendi nessa
             jornada e garantir que o contador salve empresas e ajude os empresários na tomada de

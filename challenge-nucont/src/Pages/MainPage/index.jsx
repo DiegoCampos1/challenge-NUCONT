@@ -3,8 +3,9 @@ import Header from '../../components/Header';
 import YellowBaner from '../../components/YellowBaner';
 import ListComponent from '../../components/ListComponent';
 import { contadorList, serieList } from '../../service/itemsList';
-import { Hr } from './StyledComponents';
+import { Hr, Title } from './StyledComponents';
 import AuthorBaner from '../../components/AuthorBaner';
+import RegisterBaner from '../../components/RegisterBaner';
 
 function MainPage() {
   return (
@@ -15,10 +16,12 @@ function MainPage() {
       <br />
       <Hr size="50%" />
       <ListComponent title={serieList.title} list={serieList.items} />
-      <Hr size="40%" margintop="40px" />
+      <Hr size="40%" margintop="10vh" />
       <AuthorBaner />
-      <Hr size="40%" margintop="0" />
-
+      <Hr size="40%" margintop="5vh" />
+      <RegisterBaner />
+      <Hr size="40%" margintop="10vh" />
+      <Title>ESTAMOS JUNTOS NESSA</Title>
     </div>
   );
 }

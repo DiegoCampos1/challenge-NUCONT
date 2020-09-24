@@ -7,7 +7,7 @@ export const Title = styled.h3`
   font-size: 29px;
   line-height: 35px;
   text-align: center;
-  color: #FFB700;
+  color: #ffb700;
   margin-top: 0;
 `;
 
@@ -30,9 +30,6 @@ export const AuthorBanerContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  min-height: 550px;
-  height: 100vh;
   margin: 0;
 `;
 
