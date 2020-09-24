@@ -23,6 +23,7 @@ export const Paragraph = styled.p`
 
 export const Button = styled.button`
   font-family: Montserrat, Roboto, Arial, sans-serif;
+  border: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
