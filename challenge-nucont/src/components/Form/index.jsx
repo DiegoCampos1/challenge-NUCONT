@@ -20,6 +20,11 @@ function Form({ color }) {
   const [disable, setDissable] = useState(true);
   const [redirectThanks, setRedirectThanks] = useState(false);
 
+  const eventSend = () => ReactGA.event({
+    category: 'User',
+    action: 'Send Form',
+  });
+
   const validateEmail = (emailAdress) => {
     const regexEmail = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
     if (emailAdress.match(regexEmail)) {
@@ -50,6 +55,7 @@ function Form({ color }) {
       email,
       phone,
     };
+    eventSend();
     saveToLocalStorage(userData);
     return setRedirectThanks(true);
   };
