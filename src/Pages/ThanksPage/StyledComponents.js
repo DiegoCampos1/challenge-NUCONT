@@ -25,6 +25,8 @@ export const SizeView = styled.div`
   align-items: center;
   justify-content: center;
   background-color: ${(props) => props.background};
+  margin-top: 10px;
+  width: 100%;
 `;
 
 export const Button = styled.button`
