@@ -5,12 +5,12 @@ import { createBrowserHistory } from 'history';
 import MainPage from './Pages/MainPage';
 import ThanksPage from './Pages/ThanksPage';
 
-ReactGA.initialize('UA-000000-01');
+// Chave criada para teste, é preciso gerar uma chave para o projeto em produção.
+ReactGA.initialize('G-EKW75M91C9');
 
 const browserHistory = createBrowserHistory();
 browserHistory.listen((location, action) => {
   ReactGA.pageview(location.pathname + location.search);
-  console.log(action, location);
 });
 
 function App() {
