@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const ThanksPageContainer = styled.div`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
   background: linear-gradient(180deg, #ffb700 99.99%, #141414 100%);
   display: flex;
   flex-direction: column;
@@ -12,8 +10,6 @@ export const ThanksPageContainer = styled.div`
 `;
 
 export const Title = styled.h3`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -32,37 +28,19 @@ export const SizeView = styled.h3`
 `;
 
 export const Button = styled.button`
-  background: linear-gradient(180deg, #ffb700 99.99%, #141414 100%);
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  background: ${(props) => props.background};
   border: 0;
   border-radius: 42px;
   color: white;
   cursor: pointer;
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-size: 18px;
+  font-size: ${(props) => props.size};
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  margin: 10vh 0;
+  margin: ${(props) => props.margin};
   padding: 10px 25px;
   text-align: center;
-`;
-
-export const Button2 = styled.button`
-  background: #9b51e0;
-  border: 0;
-  border-radius: 42px;
-  color: white;
-  cursor: pointer;
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100%;
-  margin: 40px 0 40px -60px;
-  padding: 10px 25px;
-  text-align: center;
-  /* height: 37px; */
-  /* height: 100%; */
 `;
 
 export const TelegramContainer = styled.div`

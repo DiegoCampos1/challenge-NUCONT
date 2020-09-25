@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  color: #ffe200;
   font-size: 18px;
+  font-weight: 700;
   line-height: 16px;
   text-align: center;
-  color: #ffe200;
 `;
 
 export const UserForm = styled.form`
@@ -16,33 +14,29 @@ export const UserForm = styled.form`
 `;
 
 export const Paragraph = styled.p`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  color: ${(props) => (props.primary ? 'black' : 'white')};
   font-size: 15px;
   line-height: 107%;
   text-align: center;
-  color: ${(props) => (props.primary ? 'black' : 'white')};
 `;
 
 export const Input = styled.input`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 107%;
   background: white;
+  border-radius: 4px;
   border: 2px solid #99b6cc;
   box-sizing: border-box;
-  border-radius: 4px;
-  margin: 5px 0;
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
   height: 35.16px;
+  line-height: 107%;
+  margin: 5px 0;
 `;
 
 export const Button = styled.button`
   background: #ffb700;
-  border: 0;
   border-radius: 42px;
+  border: 0;
   color: white;
   cursor: pointer;
   font-family: Montserrat, Roboto, Arial, sans-serif;

@@ -15,16 +15,11 @@ export const ContainerList = styled.div`
 `;
 
 export const Paragraph = styled.p`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
 `;
 
 export const Title = styled.h3`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 29px;
   line-height: 35px;

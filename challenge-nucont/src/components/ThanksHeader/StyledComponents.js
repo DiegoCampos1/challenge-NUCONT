@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import imageHeader from '../../images/fernandaRochaBaner.png';
 
 export const Title = styled.h3`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 29px;
   line-height: 35px;
@@ -11,9 +9,6 @@ export const Title = styled.h3`
 `;
 
 export const Paragraph = styled.p`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: ${(props) => (props.fontsize)};
   line-height: ${(props) => (props.fontheight)};
   color: white;

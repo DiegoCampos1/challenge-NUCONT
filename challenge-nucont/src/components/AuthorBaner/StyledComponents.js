@@ -1,43 +1,39 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 29px;
-  line-height: 35px;
-  text-align: center;
   color: #ffb700;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 35px;
   margin-top: 0;
+  text-align: center;
 `;
 
 export const Paragraph = styled.span`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: ${(props) => (props.weight)};
-  font-size: 18px;
-  line-height: 143.4%;
   color: ${(props) => (props.color)};
+  font-size: 18px;
+  font-weight: ${(props) => (props.weight)};
+  line-height: 143.4%;
 `;
 
 export const SizeFlex = styled.div`
-  width: ${(props) => (props.size)};
   margin-left: 10px;
+  width: ${(props) => (props.size)};
 `;
 
 export const AuthorBanerContainer = styled.div`
-  width: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 0;
+  width: 100%;
 `;
 
 export const SizeView = styled.div`
-  width: 80%;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+  width: 80%;
 `;
 
 export const Image = styled.img`

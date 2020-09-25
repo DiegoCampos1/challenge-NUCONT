@@ -14,7 +14,8 @@ function ThanksHeader() {
           <Title>OBRIGADO!</Title>
           <Paragraph fontsize="18px" fontheight="22px">
             <strong>Fique Ligado!</strong>
-            Fique ligado! Você receberá em alguns instantes um e-mail da Fernanda Rocha com o acesso
+            {' '}
+            Você receberá em alguns instantes um e-mail da Fernanda Rocha com o acesso
             para acompanhar a série. toda semana vamos enviar o link da Consultoria Contábil com o
             tema que será abordado
           </Paragraph>

@@ -14,8 +14,6 @@ export const SizeFlex = styled.div`
 `;
 
 export const Paragraph = styled.span`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   line-height: 143.4%;
   color: #063254;

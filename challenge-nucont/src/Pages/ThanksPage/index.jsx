@@ -1,20 +1,13 @@
 import React from 'react';
 import ThanksHeader from '../../components/ThanksHeader';
-// import Header from '../../components/Header';
-// import YellowBaner from '../../components/YellowBaner';
-// import ListComponent from '../../components/ListComponent';
-// import { contadorList, serieList } from '../../service/itemsList';
 import {
   ThanksPageContainer,
   Title,
   SizeView,
   Button,
-  Button2,
   TelegramContainer,
   Image,
 } from './StyledComponents';
-// import AuthorBaner from '../../components/AuthorBaner';
-// import RegisterBaner from '../../components/RegisterBaner';
 import telegramLogo from '../../images/telegramLogo.png';
 
 function ThanksPage() {
@@ -28,7 +21,14 @@ function ThanksPage() {
             emergência, mas também para te deixar preparado para um novo normal que viveremos.
             Conheça o Plano de retomada!
           </Title>
-          <Button type="button">FALAR COM CONSULTOR</Button>
+          <Button
+            margin="10vh 0"
+            background="linear-gradient(180deg, #ffb700 99.99%, #141414 100%)"
+            size="18px"
+            type="button"
+          >
+            FALAR COM CONSULTOR
+          </Button>
         </SizeView>
         <SizeView>
           <Title>
@@ -37,7 +37,9 @@ function ThanksPage() {
           </Title>
           <TelegramContainer>
             <Image src={telegramLogo} alt="Logo do Telegram" />
-            <Button2 type="button">CONECTE - SE COM A GENTE: TELEGRAM</Button2>
+            <Button margin="40px 0 40px -60px" background="#9b51e0" size="16px" type="button">
+              CONECTE - SE COM A GENTE: TELEGRAM
+            </Button>
           </TelegramContainer>
         </SizeView>
       </ThanksPageContainer>

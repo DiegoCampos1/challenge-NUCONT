@@ -4,6 +4,7 @@ import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 import MainPage from './Pages/MainPage';
 import ThanksPage from './Pages/ThanksPage';
+import Body from './StyledComponents';
 
 // Chave criada para teste, é preciso gerar uma chave para o projeto em produção.
 ReactGA.initialize('G-EKW75M91C9');
@@ -21,8 +22,10 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
+        <Body>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/obrigado" component={ThanksPage} />
+        </Body>
       </Switch>
     </BrowserRouter>
   );

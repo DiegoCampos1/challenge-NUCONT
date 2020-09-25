@@ -8,8 +8,6 @@ export const Hr = styled.hr`
 `;
 
 export const Title = styled.h3`
-  font-family: Montserrat, Roboto, Arial, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 29px;
   line-height: 35px;
