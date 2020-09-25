@@ -19,7 +19,7 @@ export const Title = styled.h3`
   width: 70%;
 `;
 
-export const SizeView = styled.h3`
+export const SizeView = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

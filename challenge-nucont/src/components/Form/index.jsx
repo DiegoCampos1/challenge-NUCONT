@@ -70,12 +70,13 @@ function Form({ color }) {
         <strong> Imersão Nucont</strong>
       </Paragraph>
       <UserForm>
-        <Input type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
-        <Input type="text" placeholder="Sobrenome" onChange={(e) => setLastName(e.target.value)} />
-        <Input type="number" placeholder="Idade" onChange={(e) => setAge(e.target.value)} />
-        <Input type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
+        <Input name="Nome" type="text" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
+        <Input name="Sobrenome" type="text" placeholder="Sobrenome" onChange={(e) => setLastName(e.target.value)} />
+        <Input name="Idade" type="number" placeholder="Idade" onChange={(e) => setAge(e.target.value)} />
+        <Input name="Email" type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
         <Input
           type="text"
+          name="Phone"
           placeholder="Telefone: (__)xxxx-xxxx"
           onChange={(e) => setPhone(e.target.value)}
         />
