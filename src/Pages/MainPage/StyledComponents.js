@@ -5,6 +5,10 @@ export const Hr = styled.hr`
   width: ${(props) => (props.size)};
   align-items: center;
   margin-top: ${(props) => (props.margintop)};
+
+  @media ( max-width : 800px ) {
+    width: 90%;
+  }
 `;
 
 export const Title = styled.h3`
