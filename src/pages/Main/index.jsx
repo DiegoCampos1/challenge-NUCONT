@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header';
 import YellowBanner from '../../components/YellowBanner';
-import ListComponent from '../../components/ListComponent';
+import ListComponent from '../../components/List';
 import { contadorList, serieList } from '../../service/itemsList';
 import { Hr, Title } from './StyledComponents';
 import AuthorContainer from '../../components/AuthorContainer';
