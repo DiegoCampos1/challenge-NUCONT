@@ -7,6 +7,11 @@ export const ThanksPageContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: auto;
+
+  @media ( max-width : 800px ) {
+    height: 500px;
+    justify-content: flex-start;
+  }
 `;
 
 export const Title = styled.h3`
@@ -27,6 +32,10 @@ export const SizeView = styled.div`
   background-color: ${(props) => props.background};
   margin-top: 10px;
   width: 100%;
+
+  @media ( max-width : 800px ) {
+    display: ${(props) => props.display};
+  }
 `;
 
 export const Button = styled.button`
@@ -43,16 +52,30 @@ export const Button = styled.button`
   margin: ${(props) => props.margin};
   padding: 10px 25px;
   text-align: center;
+
+  @media ( max-width : 800px ) {
+    font-size: 16px;
+    line-height: 16px;
+    align-self: start;
+  }
 `;
 
 export const TelegramContainer = styled.div`
   display: flex;
   text-align: center;
   justify-content: center;
+
+  @media ( max-width : 800px ) {
+    padding: 20px;
+  }
 `;
 
 export const Image = styled.img`
   width: 178px;
   height: 120px;
   z-index: 1;
+
+  @media ( max-width : 800px ) {
+    margin-left: -30px;
+  }
 `;

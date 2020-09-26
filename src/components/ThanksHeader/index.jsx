@@ -19,7 +19,7 @@ function ThanksHeader() {
             para acompanhar a série. toda semana vamos enviar o link da Consultoria Contábil com o
             tema que será abordado
           </Paragraph>
-          <Paragraph fontsize="14px" fontheight="17px">
+          <Paragraph fontsize="14px" fontheight="17px" fontsizemedia="12px" fontheightmedia="15px">
             Por favor, confira também a aba de promoções e sua caixa de spam ou lixo eletrônico, em
             alguns casos o e-mail chega nessas outras caixas.
           </Paragraph>

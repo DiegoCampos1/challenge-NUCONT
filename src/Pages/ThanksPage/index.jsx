@@ -15,7 +15,7 @@ function ThanksPage() {
     <div>
       <ThanksHeader />
       <ThanksPageContainer>
-        <SizeView background="white">
+        <SizeView background="white" display="none">
           <Title>
             A Nucont se sente responsável por te ajudar não só com estratégias e ações de
             emergência, mas também para te deixar preparado para um novo normal que viveremos.
