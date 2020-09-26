@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
@@ -88,5 +89,10 @@ function Form({ color, backgroundmedia }) {
     </ContainerForm>
   );
 }
+
+Form.propTypes = {
+  backgroundmedia: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+};
 
 export default Form;

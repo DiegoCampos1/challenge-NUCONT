@@ -6,6 +6,7 @@ export const Title = styled.h3`
   font-size: 29px;
   line-height: 35px;
   color: #ffe200;
+
   @media ( max-width : 800px ) {
     font-size: 24px;
     line-height: 29px;

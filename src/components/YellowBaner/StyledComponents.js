@@ -22,7 +22,7 @@ export const Paragraph = styled.p`
   @media ( max-width : 800px ) {
     font-size: 18px;
     line-height: 22px;
-    margin: 1% 15% 1%;
+    margin: 1% 15%;
   }
 `;
 

@@ -39,7 +39,7 @@ export const HeaderContainer = styled.div`
 
   @media ( max-width : 800px ) {
     background-size: 100% 50%;
-    width: 420px;
+    width: 419px;
     height: 100%;
   }
 `;
