@@ -1,25 +1,25 @@
 import React from 'react';
 import Header from '../../components/Header';
-import YellowBaner from '../../components/YellowBaner';
+import YellowBanner from '../../components/YellowBanner';
 import ListComponent from '../../components/ListComponent';
 import { contadorList, serieList } from '../../service/itemsList';
 import { Hr, Title } from './StyledComponents';
-import AuthorBaner from '../../components/AuthorBaner';
-import RegisterBaner from '../../components/RegisterBaner';
+import AuthorContainer from '../../components/AuthorContainer';
+import Register from '../../components/Register';
 
 function MainPage() {
   return (
     <div>
       <Header />
-      <YellowBaner />
+      <YellowBanner />
       <ListComponent title={contadorList.title} list={contadorList.items} />
       <br />
       <Hr size="50%" />
       <ListComponent title={serieList.title} list={serieList.items} />
       <Hr size="40%" margintop="10vh" />
-      <AuthorBaner />
+      <AuthorContainer />
       <Hr size="40%" margintop="5vh" />
-      <RegisterBaner />
+      <Register />
       <Hr size="40%" margintop="10vh" />
       <Title>ESTAMOS JUNTOS NESSA</Title>
     </div>

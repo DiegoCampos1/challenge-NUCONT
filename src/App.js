@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
-import MainPage from './Pages/MainPage';
-import ThanksPage from './Pages/ThanksPage';
+import MainPage from './pages/Main';
+import ThanksPage from './pages/Thanks';
 import Body from './StyledComponents';
 
 // Chave criada para teste, é preciso gerar uma chave para o projeto em produção:
