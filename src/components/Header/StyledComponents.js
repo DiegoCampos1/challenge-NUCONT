@@ -7,7 +7,8 @@ export const Title = styled.h3`
   line-height: 35px;
   text-align: center;
   color: #ffe200;
-  @media (max-width: 800px) {
+
+  @media ( max-width : 800px ) {
     font-size: 24px;
     line-height: 29px;
   }
@@ -17,7 +18,8 @@ export const Paragraph = styled.p`
   font-size: 18px;
   line-height: 22px;
   color: white;
-  @media (max-width: 800px) {
+
+  @media ( max-width : 800px ) {
     font-size: 13px;
     line-height: 16px;
   }
@@ -34,15 +36,11 @@ export const HeaderContainer = styled.div`
   min-height: 550px;
   height: 100vh;
   margin: 0;
-  @media (max-width: 800px) {
-    /* background-size: 100%; */
+
+  @media ( max-width : 800px ) {
     background-size: 150% 50%;
-    /* background: black; */
-    /* position: absolute; */
     width: 485px;
     height: 100%;
-    
-
   }
 `;
 
@@ -64,13 +62,9 @@ export const SizeView = styled.div`
   width: 70%;
   padding-left: 7%;
 
-  @media (max-width: 800px) {
+  @media ( max-width : 800px ) {
     flex-direction: column;
     width: 100%;
-    /* padding-left: 18%;
-    padding-top: 20%; */
-    /* background-color: black; */
-
   }
 `;
 
