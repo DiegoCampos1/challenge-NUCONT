@@ -59,7 +59,7 @@ export const ContainerForm = styled.div`
     font-size: 18px;
     line-height: 16px;
     background: ${(props) => (props.backgroundmedia)};
-    width: 320px;
+    width: 350px;
     height: 400px;
     margin-left: -50px;
     padding: 20%;

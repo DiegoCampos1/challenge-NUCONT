@@ -14,7 +14,7 @@ function Header() {
     <div>
       <HeaderContainer>
         <SizeView>
-          <SizeFlex size="62%">
+          <SizeFlex size="62%" sizemedia="70%" marginleft="10vh">
             <Title>CONSULTORIA CONTÁBIL NA PRÁTICA</Title>
             <Paragraph>
               <strong>Identifique </strong>
@@ -25,7 +25,7 @@ function Header() {
             </Paragraph>
             <Author>com Fernanda Rocha - CEO da Nucont</Author>
           </SizeFlex>
-          <SizeFlex size="38%">
+          <SizeFlex size="53%" sizemedia="54%">
             <Form backgroundmedia="black" color="white" />
           </SizeFlex>
         </SizeView>

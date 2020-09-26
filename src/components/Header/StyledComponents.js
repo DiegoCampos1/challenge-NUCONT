@@ -38,8 +38,8 @@ export const HeaderContainer = styled.div`
   margin: 0;
 
   @media ( max-width : 800px ) {
-    background-size: 150% 50%;
-    width: 485px;
+    background-size: 100% 50%;
+    width: 420px;
     height: 100%;
   }
 `;
@@ -71,4 +71,10 @@ export const SizeView = styled.div`
 export const SizeFlex = styled.div`
   width: ${(props) => props.size};
   margin: 0 15px;
+
+  @media ( max-width : 800px ) {
+    width: ${(props) => props.sizemedia};
+    margin: 0;
+    padding-left: ${(props) => props.marginleft};
+  }
 `;
