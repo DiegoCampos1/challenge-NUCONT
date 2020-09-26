@@ -12,7 +12,7 @@ import {
   Button,
 } from './StyledComponents';
 
-function Form({ color }) {
+function Form({ color, backgroundmedia }) {
   const [name, setName] = useState('');
   const [lastName, setLastName] = useState('');
   const [age, setAge] = useState();
@@ -64,9 +64,9 @@ function Form({ color }) {
   return redirectThanks ? (
     <Redirect to="/obrigado" />
   ) : (
-    <ContainerForm>
+    <ContainerForm backgroundmedia={backgroundmedia}>
       <Title>Fale agora com nossos consultores!</Title>
-      <Paragraph primary={color}>
+      <Paragraph color={color}>
         Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na
         <strong> Imersão Nucont</strong>
       </Paragraph>

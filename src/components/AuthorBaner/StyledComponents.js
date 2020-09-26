@@ -54,7 +54,6 @@ export const SizeView = styled.div`
   @media ( max-width : 800px ) {
     flex-direction: column;
     width: 90%;
-
   }
 `;
 

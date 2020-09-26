@@ -18,4 +18,9 @@ export const Title = styled.h3`
   text-align: center;
   color: #ffb700;
   margin-top: 5vh;
+
+  @media ( max-width : 800px ) {
+    font-size: 17px;
+    line-height: 21px;
+  }
 `;

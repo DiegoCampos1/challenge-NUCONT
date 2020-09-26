@@ -19,7 +19,7 @@ export const UserForm = styled.form`
 `;
 
 export const Paragraph = styled.p`
-  color: ${(props) => (props.primary ? 'black' : 'white')};
+  color: ${(props) => (props.color)};
   font-size: 15px;
   line-height: 107%;
   text-align: center;
@@ -55,10 +55,10 @@ export const Button = styled.button`
 `;
 
 export const ContainerForm = styled.div`
-  @media (max-width: 800px) {
+  @media ( max-width : 800px ) {
     font-size: 18px;
     line-height: 16px;
-    background: black;
+    background: ${(props) => (props.backgroundmedia)};
     width: 320px;
     height: 400px;
     margin-left: -50px;
