@@ -26,7 +26,6 @@ function Header() {
             <Author>com Fernanda Rocha - CEO da Nucont</Author>
           </SizeFlex>
           <SizeFlex size="38%">
-            {/* <Form color="primary" /> */}
             <Form />
           </SizeFlex>
         </SizeView>

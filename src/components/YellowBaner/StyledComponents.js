@@ -6,6 +6,11 @@ export const Title = styled.h3`
   font-weight: 700;
   line-height: 35px;
   text-align: center;
+
+  @media ( max-width : 800px ) {
+    font-size: 24px;
+    line-height: 29px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -13,6 +18,12 @@ export const Paragraph = styled.p`
   line-height: 22px;
   margin: 2% 25% 1%;
   text-align: center;
+
+  @media ( max-width : 800px ) {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 1% 15% 1%;
+  }
 `;
 
 export const Button = styled.button`
@@ -29,6 +40,11 @@ export const Button = styled.button`
   margin: 3%;
   padding: 10px;
   text-align: center;
+
+  @media ( max-width : 800px ) {
+    font-size: 16px;
+    line-height: 16px;
+  }
 `;
 
 export const YellowBanerCountainer = styled.div`

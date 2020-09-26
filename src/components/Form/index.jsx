@@ -4,6 +4,7 @@ import ReactGA from 'react-ga';
 
 import saveToLocalStorage from '../../service/localstorage';
 import {
+  ContainerForm,
   Title,
   UserForm,
   Paragraph,
@@ -63,7 +64,7 @@ function Form({ color }) {
   return redirectThanks ? (
     <Redirect to="/obrigado" />
   ) : (
-    <div>
+    <ContainerForm>
       <Title>Fale agora com nossos consultores!</Title>
       <Paragraph primary={color}>
         Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na
@@ -84,7 +85,7 @@ function Form({ color }) {
           QUERO ACOMPANHAR A SÉRIE
         </Button>
       </UserForm>
-    </div>
+    </ContainerForm>
   );
 }
 

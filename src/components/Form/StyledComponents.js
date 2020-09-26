@@ -6,6 +6,11 @@ export const Title = styled.h3`
   font-weight: 700;
   line-height: 16px;
   text-align: center;
+
+  @media ( max-width : 800px ) {
+    font-size: 18px;
+    line-height: 16px;
+  }
 `;
 
 export const UserForm = styled.form`
@@ -47,4 +52,16 @@ export const Button = styled.button`
   margin: 5px 0;
   padding: 10px 25px;
   text-align: center;
+`;
+
+export const ContainerForm = styled.div`
+  @media (max-width: 800px) {
+    font-size: 18px;
+    line-height: 16px;
+    background: black;
+    width: 320px;
+    height: 400px;
+    margin-left: -50px;
+    padding: 20%;
+  }
 `;
